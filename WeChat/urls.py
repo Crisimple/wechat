@@ -1,4 +1,4 @@
-"""mypublic URL Configuration
+"""WeChat URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from mypublic.weixin import views as wv
+from mypublic import views as mv
 
 urlpatterns = [
-    path('wx/', wv.weixin),
+    path('wx/', mv.weixin),
     path('admin/', admin.site.urls),
 ]
