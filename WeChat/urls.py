@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from mypublic import views as mv
+from mypublic import views as mpv
 
 urlpatterns = [
-    path('wx/', mv.weixin),
+    path('wx/', mpv.weixin),
     path('admin/', admin.site.urls),
 ]
