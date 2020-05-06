@@ -1,10 +1,14 @@
 /**index.wxss**/
+.menu_hot_text {
+  font-size: 50rpx;
+  font-weight: 600;
+}
 .menu_hot_detail .menu_hot_detail_image image{
   width: 100rpx;
   height: 100rpx;
 }
 
-.menu_hot_detail .menu_hot_detail_image  .img1{
+.menu_hot_detail .menu_hot_detail_image  .weibo{
   border-radius: 50%;
 }
 
@@ -30,6 +34,13 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
+.menu_hot_detail .menu_hot_detail_image text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 
 /*京东秒杀*/
 .auction .item .big_image image{

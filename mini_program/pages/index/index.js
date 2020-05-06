@@ -62,7 +62,7 @@ Page({
 
     /*跳转*/
     wx.navigateTo({
-      url: "pages/redirect/redirect",
+      url: '/pages/redirect/redirect',
     })
   }
 })

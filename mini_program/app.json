@@ -3,12 +3,13 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/attention/attention",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/redirect/redirect"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "mini-program",
+    "navigationBarTitleText": "DeepHub",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {

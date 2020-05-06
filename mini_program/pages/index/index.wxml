@@ -2,12 +2,12 @@
 
 <view class="menu_hot_text">
   <!-- https://www.thinkmoon.cn/amp/508.html -->
-  快捷入口
+  社交矩阵
 </view>
 <view class="menu_hot_detail">
   <view class="menu_hot_detail_image" bindtap="clickMe" data-nid="123" data-nid2="456">
-    <image src="/static/mini1.jpg" class="img1"></image>
-    <text>点击我</text>
+    <image src="/static/index/weibo.png" class="weibo"></image>
+    <text>微博</text>
   </view>
 
   <view class="menu_hot_detail_image">
@@ -16,17 +16,19 @@
   </view>
 
   <view class="menu_hot_detail_image">
-    <image src="/static/miniApp.jpeg"></image>
-    <text>热点三</text>
+    <image src="/static/index/github.png"></image>
+    <text>GitHub</text>
   </view>
 
   <view class="menu_hot_detail_image">
-    <image src="/static/miniApp.jpeg"></image>
-    <text>热点四</text>
+    <image src="/static/index/more.png"></image>
+    <text>更多</text>
   </view>
 </view>
 
-<view class="shopping_show">**********京东秒杀**********</view>
+<view class="division">
+  <image src="/static/index/division.png"></image>
+</view>
 <view class="auction">
   <view class="item">
     <view class="title">京东手机 - 稀缺新机购</view>

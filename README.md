@@ -1,2 +1,0 @@
-# WeChat
-Wechat public develop!
