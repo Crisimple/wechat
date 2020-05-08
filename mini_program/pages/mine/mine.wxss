@@ -1,0 +1,18 @@
+.user_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.default_mine{
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.user_location{
+    margin-bottom: 30rpx;
+}
+
+.user_location text{
+    background: #1296db;
+}

@@ -1,2 +1,12 @@
 <!--pages/attention.wxml-->
-<text>pages/attention.wxml</text>
+<view class="attention">
+    <view class="attention_title">你的关注</view>
+    <view class="attention_item" wx:for="{{ attention_ups }}" wx:for-index="up_id" wx:for-item="up_nickname">
+        {{ up_id }} -- {{ up_nickname }}
+    </view>
+
+    <view>UP详细信息</view>
+    <view>
+        {{ userInfo}}
+    </view>
+</view>

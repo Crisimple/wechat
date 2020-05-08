@@ -4,8 +4,11 @@
   font-weight: 600;
 }
 .menu_hot_detail .menu_hot_detail_image image{
-  width: 100rpx;
   height: 100rpx;
+}
+
+.menu_hot_detail .menu_hot_detail_image image{
+  width: 100rpx;
 }
 
 .menu_hot_detail .menu_hot_detail_image  .weibo{

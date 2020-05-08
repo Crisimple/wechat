@@ -5,6 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
+    attention_ups: [
+        "小明",
+        "小红",
+        "小王"
+    ],
+    up_xiaoming:{
+      name: "小明",
+      age: 25,
+      sex: "男"
+    }
 
   },
 
