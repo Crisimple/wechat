@@ -10,10 +10,22 @@ Page({
         "小红",
         "小王"
     ],
-    up_xiaoming:{
-      name: "小明",
-      age: 25,
-      sex: "男"
+    up_detail: {
+      up_xiaoming:{
+        name: "小明",
+        age: 25,
+        sex: "男"
+      },
+      up_xiaohong:{
+        name: "小红",
+        age: 24,
+        sex: "男"
+      },
+      up_xiaowang:{
+        name: "小王",
+        age: 23,
+        sex: "女"
+      }
     }
 
   },
