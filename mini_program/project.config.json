@@ -29,7 +29,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wx05f36a789921f0ac",
-	"projectname": "mini_program",
+	"projectname": "DeepHub",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

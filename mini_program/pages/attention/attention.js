@@ -10,26 +10,35 @@ Page({
         "小红",
         "小王"
     ],
-    up_detail: {
-      up_xiaoming:{
-        name: "小明",
-        age: 25,
-        sex: "男"
-      },
-      up_xiaohong:{
-        name: "小红",
-        age: 24,
-        sex: "男"
-      },
-      up_xiaowang:{
-        name: "小王",
-        age: 23,
-        sex: "女"
-      }
-    }
-
+    up_xiaoming:{
+      name: "小明",
+      age: 25,
+      sex: "男"
+    },
+    imageList: [
+      "/static/index/more.png",
+      "/static/index/more.png",
+    ]
   },
-
+  upload_image: function() {
+    const that = this;
+    wx.chooseImage({
+      count: 9,
+      sizeType: ['original', 'compressed'],
+      sourceType: ['album', 'camera'],
+      success: function(res){
+        that.setData({
+          imageList: that.data.imageList.concat(res.tempFilePaths)
+        })
+      },
+      fail: function(res){
+        console.log(res)
+      },
+      complete: function (res) {
+        console.log(res)
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

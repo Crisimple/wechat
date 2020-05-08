@@ -5,3 +5,9 @@
     font-weight: bold;
     border: #1296db;
 }
+
+.iamge_container image{
+    height: 100rpx;
+    width: 100rpx;
+    border: 10rpx;
+}
