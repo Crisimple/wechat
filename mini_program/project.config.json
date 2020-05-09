@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"preloadBackgroundData": false,
@@ -62,8 +62,8 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "pages/attention/attention",
-					"pathName": "pages/attention/attention",
+					"name": "pages/mine/mine",
+					"pathName": "pages/mine/mine",
 					"query": "",
 					"scene": null
 				}

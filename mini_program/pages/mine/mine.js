@@ -9,8 +9,41 @@ Page({
   data: {
     image_path: "/static/mine/default_mine.png",
     user_name: "",
-    local_address: "请选择"
+    local_address: "请选择",
+    phone_number: "",
+    phone_code: ""
   },
+  bind_phone: function(e) {
+    console.log(e);
+    this.setData({
+      phone_number: e.detail.value
+    })
+  },
+  bind_phone_code: function(e) {
+    this.setData({
+      phone_code: e.detail.value
+    })
+  },
+  phone_login: function(){
+      console.log(this.data.phone_number, this.data.phone_code);
+      wx.request({
+        url: 'http://127.0.0.1:8000/login',
+        complete: (res) => {},
+        data: {
+          phone_number: this.data.phone_number,
+          phone_code: this.data.phone_code
+        },
+        // dataType: dataType,
+        fail: (res) => {},
+        // header: header,
+        method: "POST",
+        // responseType: responseType,
+        success: (res) => {
+          console.log("test:,,", res)
+        },
+      })
+  },
+
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

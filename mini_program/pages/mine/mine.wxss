@@ -9,6 +9,11 @@
     height: 100rpx;
 }
 
+.register_phone{
+    background-color: #1296db;
+    font-size: medium;
+}
+
 .user_location{
     margin-bottom: 30rpx;
 }

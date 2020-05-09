@@ -8,6 +8,14 @@
   <button open-type="getUserInfo" bindgetuserinfo="fetch_userinfo">授权登录</button>
 </view>
 
+<view class="register_phone">手机号： {{ phone_number }}</view>
+<input value="{{ phone_number }}" bindinput="bind_phone" placeholder="请输入手机号"></input>
+
+<view class="register_code">验证码： {{ phone_code }} <text>【点击发送验证码】</text></view>
+<input value="{{ phone_code }}" bindinput="bind_phone_code" placeholder="请输入验证码"></input>
+
+<button bindtap="phone_login">登录</button>
+
 <view class="user_location" bindtap="fetch_address">
   <text>收货地址：</text>
   {{local_address}}
